@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Homepage</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <link rel="icon" href="image\logo.jpg">
+   <style>
+    .carousel-inner{
+      padding-left: 60px;
+      width: 95%;
+      max-height: 680px;
+    }
+   </style>
+   <script language = "javascript" type = "text/javascript" >
+     function bookCars(){
+       alert("Your redirected to buy Cars");
+     }
+     function bookParts(){
+       alert("Your redirected to buy Parts");
+     }
+   </script>
+</head>
+<body class="bg-dark" >
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  					<div class="container-fluid">
+     					<img src="image\logo.jpg" alt="logo" width="40" height="34">
+    					<a class="navbar-brand" href="index.html">One Stop Solution</a>
+    					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      					<span class="navbar-toggler-icon"></span>
+    					</button>
+    					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        						<li class="nav-item">
+          							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        						</li>
+        						<li class="nav-item">
+          							<a class="nav-link" href="#">Car Details</a>
+        						</li>
+        						<li class="nav-item dropdown">
+          							<a class="nav-link dropdown-toggle" href=" " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Car Rental
+									</a>
+          							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li><a class="dropdown-item " href="bookCars.html">Booking</a></li>
+										<li><a class="dropdown-item" href="#" disable>Return</a></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><a class="dropdown-item" href="#">Feedback</a></li>
+          							</ul>
+        						</li>
+        						<li class="nav-item">
+          							<a class="nav-link" href="bookParts.html">Car Parts</a>
+        						</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contant Us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">About Us</a>
+								</li>
+								<form class="d-flex text-right">
+									<input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn btn-outline-success" type="submit">Search</button>
+								</form>
+      						</ul>
+    					</div>
+  					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+  
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="image/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-xl-block">
+          <h2 style="padding-bottom: 95px; color: yellow;" class=" font-weight-bold">Lamborghini</h2>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="image/19.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-xl-block">
+          <h2 style="padding-bottom: 105px;" class="text-warning font-weight-bold">Mercedes-Benz</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/17.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-xl-block">
+          <h2 style="padding-bottom: 670px; color: aqua;" class="font-weight-bold">McLaren P1</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container" style="margin-bottom: 30px;">
+    <div class="row mt-4">
+      <div class="col-md-12">
+		    <h1 class="text-primary text-center bg-dark">Our Mission</h1>
+		    <p class="" style="color: Violet;">The "Car Rent and Service System" has been developed to override the problems prevailing in the practicing manual system. This software is supported to eliminate and in some cases reduce the hardships faced by this existing system. Moreover this system is designed for the particular need of the company to carry out operations in a smooth and effective manner.</p>	
+	    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-primary text-center">Car Model</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width:100%;">
+          <img src="image/Tata-Tiago.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title ">Tata Tiago</h5>
+            <p class="card-text">The Tata Tiago has 1 Petrol Engine on offer. The Petrol engine is 1199 cc.The all-new Tata Tiago NRG is crafted for those who want to make a different impression everyday.</p>
+            <p class="card-text">Manufacturer: Tata Motors</p>
+            <p class="card-text">Ex-Showroom Price: ₹5.2 lakhs-₹7.53 lakhs</p>
+            <a type="button" onclick="bookCars()" href="bookCars.html" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width:100%;">
+          <img src="image/celerio.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Maruti Suzuki Celerio</h5>
+            <p class="card-text">Maruti Celerio delivers an impressive mileage of 23.1 kmpl, which is certainly commendable given.</p>
+            <p class="card-text">Manufacturer: Maruti Suzuki India Limited</p>
+            <p class="card-text">Ex-Showroom Price:  ₹ 5.23 Lakh-₹ 7.00 Lakh</p>
+            <a type="button" onclick="bookCars()" href="bookCars.html" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width:100%;">
+          <img src="image/thar.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mahindra Thar</h5>
+            <p class="card-text">The Mahindra Thar is a vehicle built for real off-roading. Its ability to negotiate rough terrain is genuine.The All-New Mahindra Thar is a 4 & 6 seater</p>
+            <p class="card-text">Manufacturer: Mahindra & Mahindra Limited</p>
+            <p class="card-text">Ex-Showroom Price: ₹13.53 Lakh-₹16.03 Lakh</p>
+            <a type="button" onclick="bookCars()" href="bookCars.html" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+	    <div class="col-md-4">
+        <div class="card" style="width:100%;">
+          <img src="image/xuv.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mahindra XUV700</h5>
+            <p class="card-text">Mahindra XUV700 is an all new, authentic, global SUV set to redefine benchmarks with its sci-fi technology.</p>
+            <p class="card-text">Manufacturer: Mahindra & Mahindra Limited</p>
+            <p class="card-text">Ex-Showroom Price:- ₹13.18 Lakh-₹24.8 Lakh</p>
+            <a type="button" onclick="bookCars()" href="bookCars.html" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+	    <div class="col-md-4">
+        <div class="card" style="width:100%;">
+          <img src="image/punch.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tata Punch</h5>
+            <p class="card-text">The Tata Punch is offered in four variants that include Pure, Adventure, Accomplished, and Creative.</p>
+            <p class="card-text">Manufacturer: Tata Motors</p>
+            <p class="card-text">Ex Ex-Showroom price: ₹5.83 Lakh-₹9.49 Lakh</p>
+            <a type="button" onclick="bookCars()" href="bookCars.html" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width:100%;">
+          <img src="image/kiaev.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">KiA EV</h5>
+            <p class="card-text">The all-electric EV6 is designed to inspire with a driver-centric cockpit, Dual Panoramic Screens.</p>
+            <p class="card-text">Manufacturer: Hyundai Motor India Limited</p>
+            <p class="card-text">Ex-Showroom Price: ₹59.95 Lakh-₹64.95 Lakh</p>
+            <a type="button" onclick="bookCars()" href="bookCars.html" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <blockquote class="blockquote text-end text-center" style="color:SlateBlue;">
+    <p class="mb-3">All of those cars were once just a dream in somebody`s head.</p>
+    <footer class="blockquote-footer">-PETER GABRIEL</footer>
+  </blockquote>
+
+  <h1 style="text-align: center; padding-top: 1em; color: aqua;">Car Parts</h1>
+  <div class="row row-cols-1 row-cols-md-5 g-4 m-5" style="margin: 1em;">
+    <div class="col">
+      <div class="card">
+        <img src="image/Spare-tire.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Spare Tire</h5>
+          <p class="card-text">Price : 5000/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image/Grills.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Grilles</h5>
+          <p class="card-text">Price : 2100/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image/bumper.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bumpers</h5>
+          <p class="card-text">Price : 3500/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image/Headlight.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Headlights</h5>
+          <p class="card-text">Price : 2000/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image/19Air-filter.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Air Filter</h5>
+          <p class="card-text">Price : 4000/Unit</p>
+        <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image\speedometer.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Speedometer</h5>
+          <p class="card-text">Price : 1000/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image/Tail-lights.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tail Lights</h5>
+          <p class="card-text">Price : 3000/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image\belt.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Seat Belt</h5>
+          <p class="card-text">Price : 2100/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image\gear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gear Shift</h5>
+          <p class="card-text">Price : 1000/Unit</p>
+          <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="image\screen.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Windscreen</h5>
+          <p class="card-text">Price : 6000/Unit</p>
+        <button type="button" onclick="bookParts()"><a href="bookParts.html">Buy</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <blockquote class="blockquote text-end text-center" style="color:rgb(51, 248, 103);">
+    <p class="mb-3">Some men take good care of a car;others treat it like one of the family</p>
+    <footer class="blockquote-footer fst-italic">Evan Esar</footer>
+  </blockquote>
+
+  <footer >
+      <div class="container-fluid mt-2 mtb-2" style="padding-bottom: 30px;">
+        <div class="row">
+          <a href="#top" class="fst-italic text-end text-bold">Back to top</a>
+        </div>
+      </div>
+      <div class="container text" style="color:rgb(0, 0, 0); background-color:aqua;">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">Help</div>
+          <div class="col col-lg-4 text-center">Contact Us</div>
+          <div class="col col-lg-2">Signin</div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">FAQs</div>
+          <div class="col col-lg-6 text-center">@Copyright 2022</div>
+          <div class="col col-lg-2">Privacy Preferences</div>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
